@@ -126,3 +126,7 @@ for (let i = 0; i < squares.length; i++) {
         checkBoard()
     }
 }
+
+refreshPage.addEventListener('click', function refreshPage() {
+    location.reload();
+})
