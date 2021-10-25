@@ -74,7 +74,7 @@ const winningArrays = [
     [11, 18, 25, 32],
     [12, 19, 26, 33],
     [13, 20, 27, 34],
-]
+];
 
 function checkBoard() {
  for (let i = 0; i < winningArrays.length; i++) {
@@ -127,6 +127,6 @@ for (let i = 0; i < squares.length; i++) {
     }
 }
 
-refreshPage.addEventListener('click', function refreshPage() {
+refreshPage.addEventListener('click', () => {
     location.reload();
 })
